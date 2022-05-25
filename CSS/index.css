@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#main{
+    width: 1920px;
+}
+#logo{
+    font-size: 25px;
+    margin: 10px 0px 0px 0px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-family: 'Courier New', Courier, monospace;    
+}
+
+#topMenu {          
+    height: 100px; 
+    width: 1550px;
+    margin: 0 auto;
+}
+#topMenu ul li {                     
+    list-style: none;           
+    color: white;               
+    background-color: #2d2d2d; 
+    float: left;              
+    line-height: 40px;       
+    vertical-align: middle; 
+    text-align: center;     
+    margin: 20px 0px 0px 0px; 
+}
+#topMenu .menuLink {                            
+    text-decoration:none;          
+    color: white;                        
+    display: block;                        
+    width: 384px;                         
+    font-size: 12px;  
+    font-weight: bold;                       
+    font-family: "Trebuchet MS", Dotum, Arial;
+}
+#topMenu .menuLink:hover {          
+    color: black;              
+    background-color: white;   
+}
+.mainimg{
+    display: flex;
+    justify-content: space-around;
+}
+.img{
+    width: 350px;
+    height: 400px;
+    margin: 20px 0px 20px 0px;
+    border-radius: 30px;
+}
+p{
+    font-size: 15px;
+}
